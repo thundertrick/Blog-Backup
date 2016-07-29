@@ -4,15 +4,15 @@
 
 # Site
 title: Magican
-subtitle:
-description:
+subtitle: Programming is Magica
+description: Android & iOS & Python
 author: Xuyang Hu
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://thundertrick.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
