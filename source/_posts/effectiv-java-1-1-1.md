@@ -1,7 +1,7 @@
 ---
 title: Effective Java - 1.1 类的创建
 date: 2016-08-08 20:13:19
-tags: [android,java]
+tags: [Android,Java]
 ---
 
 获得一个实例最常见的方法就是构造器。但构造器并非在所有场景下都是最佳方案。本文收集几个特殊的构造方法以备需要。文中大部分内容源自 Joshua Bloch 的 Effective Java （second edition），实际上也是一个读书笔记。
