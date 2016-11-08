@@ -16,7 +16,7 @@ Github 上利用 hexo 建立的博客是无法被搜索引擎搜索到的。Gith
 [Google 引擎验证申请地址](https://www.google.com/webmasters/tools/home?hl=zh-CN)
 [Baidu 引擎验证申请地址](http://www.baidu.com/search/url_submit.htm)
 
-Next 主题下，页面的 header 设置在`themes/next/layout/_partials/head.swig`内。默认也给我们提供了模板，感谢[开发者 iissnan](https://github.com/iissnan)。我们只需要把下面标签补全即可：
+<del>Next 主题下，页面的 header 设置在`themes/next/layout/_partials/head.swig`内。默认也给我们提供了模板，感谢[开发者 iissnan](https://github.com/iissnan)。我们只需要把下面标签补全即可：</del>
 
 ~~~html
 {% if theme.google_site_verification %}
@@ -28,10 +28,13 @@ Next 主题下，页面的 header 设置在`themes/next/layout/_partials/head.sw
 {% endif %}
 ~~~
 
-同时，在`themes/next/_config.yml`中将`google-site-verification`和`baidu_site_verification`的值设置为`true`即可。
+<del>同时，在`themes/next/_config.yml`中将`google-site-verification`和`baidu_site_verification`的值设置为`true`即可。</del>
 
 P.S.
 百度现在不支持 https 网址的验证，ORZ。
+
+---
+感谢[@小硕硕_](http://weibo.com/2284890987) 的提醒，更正确的方法是在`_config.xml`里直接定义`google-site-verification`和`baidu_site_verification`的值为相应id。
 
 Referrence:
 
